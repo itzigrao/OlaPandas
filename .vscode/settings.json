@@ -1,0 +1,19 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python.defaultInterpreterPath": "C:\\Users\\igorp\\anaconda3\\envs\\curso-ml-atual\\python.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell (Conda curso-ml-atual)": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-NoLogo",
+                "-NoExit",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "& 'C:\\Users\\igorp\\anaconda3\\shell\\condabin\\conda-hook.ps1'; conda activate curso-ml-atual"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell (Conda curso-ml-atual)"
+}
